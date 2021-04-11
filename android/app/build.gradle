@@ -184,6 +184,7 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     compile project(':react-native-vector-icons')
+    implementation project(':react-native-linear-gradient')
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
