@@ -57,6 +57,8 @@ export const addOrder = (cartItems, totalAmount) => {
     });
 
     if (!response.ok) {
+      console.log('orderError', response)
+      console.log('state', getState())
       throw new Error('Something went wrong!');
     }
 
